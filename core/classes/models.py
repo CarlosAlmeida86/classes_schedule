@@ -7,4 +7,4 @@ class Classes(models.Model):
     is_checked = models.BooleanField()
 
     def __str__(self):
-        return self.scheduled_date.__str__()
+        return self.issue
